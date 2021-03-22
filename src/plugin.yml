@@ -1,11 +1,11 @@
 name: HothGenerator
-version: "3.5"
+version: "3.6"
 main: biz.orgin.minecraft.hothgenerator.HothGeneratorPlugin
 load: STARTUP
 description: Generates a really icy world.
-author: orgin_org
+authors: [orgin_org, enderaoe]
 loadbefore: [Multiverse-Core, dimension-door, multiworld]
-api-version: 1.13
+api-version: 1.16
 commands:
    hothreload:
       description: Reload the hoth configuration.

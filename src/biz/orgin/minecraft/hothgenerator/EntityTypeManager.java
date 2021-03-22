@@ -494,7 +494,7 @@ public class EntityTypeManager
 		}
 		else if(id==57)
 		{
-			return EntityType.PIG_ZOMBIE;
+			return EntityType.ZOMBIFIED_PIGLIN;
 		}
 		else if(id==58)
 		{
