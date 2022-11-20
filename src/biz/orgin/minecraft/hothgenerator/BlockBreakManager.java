@@ -28,7 +28,7 @@ public class BlockBreakManager implements Listener
 	
 	private static Permission EssentialsBuildAll = new Permission("essentials.build.*","",PermissionDefault.TRUE);
 	private static Permission EssentialsBuildBreakAll = new Permission("essentials.build.break.*","",PermissionDefault.TRUE);
-	private static Permission EssentialsBuildBreakICE = new Permission("essentials.build.break." + MaterialManager.toID(Material.ICE),"",PermissionDefault.TRUE);
+	private static Permission EssentialsBuildBreakICE = new Permission("essentials.build.break." + Material.ICE.name(),"",PermissionDefault.TRUE);
 	private static Permission EssentialsBuildBreakSNOW_BLOCK = new Permission("essentials.build.break." + MaterialManager.toID(Material.SNOW_BLOCK),"",PermissionDefault.TRUE);
 	private static Permission EssentialsBuildBreakPACKED_ICE = new Permission("essentials.build.break." + MaterialManager.toID(Material.PACKED_ICE),"",PermissionDefault.TRUE);
 	private static Permission EssentialsBuildBreakSTONE = new Permission("essentials.build.break." + MaterialManager.toID(Material.STONE),"",PermissionDefault.TRUE);
