@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.infury</groupId>
     <artifactId>HothGeneratorReload</artifactId>
-    <version>3.6.0</version>
+    <version>v3.6.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <build>
         <finalName>${project.artifactId}</finalName>
@@ -57,13 +57,13 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.19.2-R0.1-SNAPSHOT</version>
+            <version>1.21.1-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.sk89q.worldguard</groupId>
             <artifactId>worldguard-bukkit</artifactId>
-            <version>7.0.7</version>
+            <version>7.0.11-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
